@@ -1,0 +1,30 @@
+p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #080881;
+  text-align: left;
+}
+
+.paragraphs-project-explanation{
+  border-radius: 1rem;
+  border-style: solid;
+  border-color: crimson;
+  align-items: center;
+  width: 50rem;
+  height: 11rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.content{
+  justify-content:center;
+  width: 48vw;
+  border-radius: 1rem;
+  background: rgb(235, 223, 223);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  max-width: 1000rem;
+}

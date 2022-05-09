@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Livros</title>
+</head>
+<body>
+  <div class="container">
+  <div class="book_register_form">
+    <h2>Cadastro de livros</h2>
+    <form>
+      <div class="book-atributes-div">
+        <label id="title-label" for="title-input">Título: </label><br>
+        <input type="text" id="title-input" name="title-input"/>
+      </div>
+
+      <div class="book-atributes-div">
+        <label id="isbn-code-label" for="isbn-code-input">ISBN: </label><br>
+        <input type="text" id="isbn-code-input" name="isbn-code-input"/>
+      </div>
+
+      <div class="book-atributes-div">
+        <label id="author-label" for="author-input">Autor: </label><br>
+        <input type="text" id="author-input" name="author-input"/>
+      </div>
+
+      <div class="book-atributes-div">
+        <label id="publisher-company-label" for="publisher-company-input">Editora: </label><br>
+        <input type="text" id="publisher-company-input" name="publisher-company-input"/>
+      </div>
+
+      <div class="book-atributes-div">
+        <label id="pages-amount-label" for="pages-amount-input">Quantidade de páginas: </label><br>
+        <input type="text" id="pages-amount-input" name="pages-amount-input"/>
+      </div>
+
+      <div class="reading-status-fieldset-div">
+        <fieldset>
+          <legend>Estado de leitura: </legend>
+
+          <div class="reading-status-fieldset-label">
+            <input type="radio" id="going-read-status" name="going-read" value="going-read-status">
+            <label for="going-read-status"> Vou ler</label>
+          </div>
+
+          <div class="reading-status-fieldset-label">
+            <input type="radio" id="reading-status" name="reading" value="reading-status">
+            <label for="reading-status"> Estou lendo</label>
+          </div>
+
+          <div class="reading-status-fieldset-label">
+            <input type="radio" id="read-status" name="read" value="read-status">
+            <label for="read-status"> Já li</label>
+          </div>
+
+          <div class="reading-status-fieldset-label">
+            <input type="radio" id="stopped-read-status" name="stopped-read" value="stopped-read-status">
+            <label for="stopped-read-status"> Parei de ler</label>
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="buttons-div">
+        <button id="clear-button" type="reset">Limpar dados</button>
+        <button type="submit-button">Enviar dados</button>
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>
