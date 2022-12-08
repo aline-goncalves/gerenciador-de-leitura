@@ -1,0 +1,14 @@
+.btn-pink{
+    position: relative;
+
+    width: 15%;
+    height: 10%;
+
+    top: 20%;
+    left: 33%;
+    background: #ED1C1C;
+    border-radius: 10px;
+    border: #ED1C1C;
+
+    color: #FFFFFF;
+}

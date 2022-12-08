@@ -1,14 +1,6 @@
-.logo{
-    box-sizing: border-box;
-    position: absolute;
-    left: 78.86%;
-    right: 2.92%;
-    top: -2.25%;
-    bottom: 70.14%;
-
-    height: 200px;
-    width: 231px;
-    left: 1000px;
-    top: -14px;
-    border-radius: 0px;
+img{
+    max-width: 1rem;
+    max-height: 1rem;
+    width: auto;
+    height: auto;
 }
